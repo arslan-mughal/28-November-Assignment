@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.column__1 {
+    float: left;
+    width: 70%;
+}
+.column__2 {
+    float: right;
+    width: 30%;
+}
+
+.row__1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top__menu {
+    background-color: darkslategrey;
+    padding-left: 150px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.top__menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top__menu ul li a{
+    display: block;
+    color: white;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+
+.top__menu ul li a:hover{
+    background-color: white;
+    color: darkslategrey;
+    padding: 8px 14px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.call__to__action {
+    background-color: darkslategray;
+    height: 59px;
+    padding-left: 50px;
+}
+
+.btn {
+    background-color: white;
+    color: darkslategray;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius:3px ;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+.container {
+    background-color: #ccc;
+    padding: 30px;
+    margin-left: 165px;
+    margin-right: 200px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div > img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div > img:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    transition: .5s;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+#card__1 {
+    display: inline;
+    height: 200px;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #999;
+    float: left;
+}
+#card__2 {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #999;
+    left: 325px;
+    position: relative;
+
+}
+
+#footer {
+    background-color:darkslategray;
+    height: 50px;
+    margin-left:165px;
+    margin-right:200px;
+    padding: 15px;
+    color: white;
+}
+
+h1, p {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+}
